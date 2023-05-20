@@ -7,6 +7,10 @@ class pesoIdeal {
         double peso;
         double imc;
 
+		System.out.println("-------------------------------------------");
+            System.out.println("Bem-vindo ao Sistema de calcular pururuca");
+            System.out.println("-----------------------------------------------");
+			
         System.out.println("Por favor, insira seu peso:");
         peso = teclado.nextDouble();
 
@@ -38,5 +42,5 @@ class pesoIdeal {
         } else {
             System.out.println("Voce esta na categoria de obesidade grau III (pururuca alta).");
         }
-    }
+    } 
 }
